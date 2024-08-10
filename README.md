@@ -1,6 +1,13 @@
 # OverlappingImages
 
 **OverlappingImages** is a Flutter widget that allows you to display a series of overlapping circular images, with dynamic width adjustment based on the number of images. The widget is highly customizable, enabling you to set the size of the images and the overlap spacing according to your design needs.
+## Screenshots
+
+Here are some screenshots of the `OverlappingImages` widget in use:
+
+![Example Screenshot](images/image1.png)  
+![Another Screenshot](images/image2.png)
+
 
 ## Features
 
@@ -12,7 +19,7 @@
 ## Usage
 
 ```dart
-import 'package:overlapping_images/overlapping_images.dart';
+import 'package:flutter_image_overlap/flutter_image_overlap.dart';
 # For network images
 class MyWidget extends StatelessWidget {
   @override
@@ -62,3 +69,5 @@ class MyWidget extends StatelessWidget {
     );
   }
 }
+
+

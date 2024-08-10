@@ -1,12 +1,9 @@
 name: flutter_image_overlap
 description: >
-  OverlappingImages is a Flutter widget that displays a series of overlapping circular images. 
-  The widget dynamically adjusts its width based on the number of images provided and allows 
-  for customization of image size and overlap spacing. Perfect for use cases like displaying 
-  participant avatars in group activities, profile photos in chats, or any scenario where 
-  you need to show a visual stack of images.
+  A Flutter widget to display overlapping circular images with customizable size and spacing. Ideal for avatars and profile photos.
 
-version: 0.0.1
+
+version: 0.0.5
 homepage: https://github.com/Dilip-2003/imageOverLapingPacakage
 
 environment:
