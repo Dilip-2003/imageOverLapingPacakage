@@ -10,5 +10,9 @@
 - try to add some screenshot. 
 ## [0.0.5] - 2024-08-10
 - example code added. 
+## [0.0.6] - 2024-08-10
+- 
+## [0.0.7] - 2024-08-10
+- 
 
 * TODO: Describe initial release.

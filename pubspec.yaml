@@ -3,7 +3,7 @@ description: >
   A Flutter widget to display overlapping circular images with customizable size and spacing. Ideal for avatars and profile photos.
 
 
-version: 0.0.5
+version: 0.0.7
 homepage: https://github.com/Dilip-2003/imageOverLapingPacakage
 
 environment:

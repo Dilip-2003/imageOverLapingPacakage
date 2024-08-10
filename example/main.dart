@@ -19,12 +19,11 @@ class MyApp extends StatelessWidget {
         body: const Center(
           child: OverlappingImages(
             images: [
-              NetworkImage(
-                  'https://img.freepik.com/free-photo/3d-cartoon-back-school_23-2151676655.jpg?size=626&ext=jpg&ga=GA1.1.1857408824.1722596472&semt=ais_hybrid'),
-              NetworkImage(
-                  'https://img.freepik.com/free-photo/3d-cartoon-back-school_23-2151676655.jpg?size=626&ext=jpg&ga=GA1.1.1857408824.1722596472&semt=ais_hybrid'),
-              NetworkImage(
-                  'https://img.freepik.com/free-photo/3d-cartoon-back-school_23-2151676655.jpg?size=626&ext=jpg&ga=GA1.1.1857408824.1722596472&semt=ais_hybrid'),
+              NetworkImage('https://example.com/image1.jpg'),
+              NetworkImage('https://example.com/image1.jpg'),
+              NetworkImage('https://example.com/image1.jpg'),
+              NetworkImage('https://example.com/image1.jpg'),
+              NetworkImage('https://example.com/image1.jpg'),
             ],
             imageRadius: 15.0,
             overlapOffset: 8.0,
