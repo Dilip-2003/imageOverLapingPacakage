@@ -14,5 +14,7 @@
 - 
 ## [0.0.7] - 2024-08-10
 - 
+## [0.0.8] - 2024-08-10
+- screenshot changed
 
 * TODO: Describe initial release.

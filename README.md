@@ -6,7 +6,6 @@
 Here are some screenshots of the `OverlappingImages` widget in use:
 
 ![Example Screenshot](images/image1.png)  
-![Another Screenshot](images/image2.png)
 
 
 ## Features
