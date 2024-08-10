@@ -13,7 +13,7 @@
 
 ```dart
 import 'package:overlapping_images/overlapping_images.dart';
-
+# For network images
 class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -22,6 +22,40 @@ class MyWidget extends StatelessWidget {
         NetworkImage('https://example.com/image1.jpg'),
         NetworkImage('https://example.com/image2.jpg'),
         NetworkImage('https://example.com/image3.jpg'),
+      ],
+      imageRadius: 12.0,  // Default radius is 12.0
+      overlapOffset: 10.0, // Default overlap is 10.0
+    );
+  }
+}
+
+# For assets images
+
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return OverlappingImages(
+      images: [
+                AssetImage('assets/images/photo.jpeg'),
+                AssetImage('assets/images/photo.jpeg'),
+                AssetImage('assets/images/photo.jpeg'),
+                AssetImage('assets/images/photo.jpeg'),
+      ],
+      imageRadius: 12.0,  // Default radius is 12.0
+      overlapOffset: 10.0, // Default overlap is 10.0
+    );
+  }
+}
+
+# For file images
+
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return OverlappingImages(
+      images: [
+                FileImage(File('/path/to/image1.jpg')),
+                FileImage(File('/path/to/image2.jpg')),
       ],
       imageRadius: 12.0,  // Default radius is 12.0
       overlapOffset: 10.0, // Default overlap is 10.0
