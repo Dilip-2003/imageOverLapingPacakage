@@ -7,7 +7,7 @@ description: >
   you need to show a visual stack of images.
 
 version: 0.0.1
-homepage:
+homepage: https://github.com/Dilip-2003/imageOverLapingPacakage
 
 environment:
   sdk: '>=3.4.4 <4.0.0'
